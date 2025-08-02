@@ -1,0 +1,36 @@
+body{
+	font-family:"Caveat",cursive;
+	background-color:green;
+	color:white;
+}
+.centrado{
+	text-align:center;
+}
+.centrado2{
+	text-align:center;
+	background-image:url(pasto.jpg);
+	background-repeat:no-repeat;
+	
+	background-size:cover;
+	background-attachment:fixed;
+	
+}
+.portada{
+	
+	
+	background-position:center;
+	background-image:url(portada2.jpg);
+	
+	background-repeat:no-repeat;
+	
+	background-size:cover;
+	background-attachment:fixed;
+}
+.bg-transparent-dark{
+	background-color: rgba(0,0,0,0.9) !important;
+}
+.piePagina{
+	background-color:green;
+	text-align:center;
+}
+.margen{background-color:black;}
