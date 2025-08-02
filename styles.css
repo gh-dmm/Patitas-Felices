@@ -34,3 +34,7 @@ body{
 	text-align:center;
 }
 .margen{background-color:black;}
+.cuadro-img{
+	height: 500px; /* o cualquier alto fijo que quieras */
+  	object-fit: cover;
+}
