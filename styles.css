@@ -36,5 +36,5 @@ body{
 .margen{background-color:black;}
 .cuadro-img{
 	height: 500px; /* o cualquier alto fijo que quieras */
-  	object-fit: cover;
-}
+  	width:500px;
+
