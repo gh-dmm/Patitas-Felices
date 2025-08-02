@@ -1,6 +1,5 @@
-/* Cambiar color del ícono hamburguesa a success */
 .navbar-light .navbar-toggler-icon {
-  background-image: none; /* eliminamos el ícono predeterminado */
+  background-image: none;
   width: 1.5em;
   height: 1.5em;
   position: relative;
@@ -14,22 +13,13 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: #198754; /* Bootstrap success */
+  background-color: #198754; /* success */
   transition: all 0.3s ease;
 }
 
-.navbar-light .navbar-toggler-icon::before {
-  top: 0;
-}
-
-.navbar-light .navbar-toggler-icon::after {
-  bottom: 0;
-}
-
-.navbar-light .navbar-toggler-icon div {
-  top: 50%;
-  transform: translateY(-50%);
-}
+.navbar-light .navbar-toggler-icon::before { top: 0; }
+.navbar-light .navbar-toggler-icon::after { bottom: 0; }
+.navbar-light .navbar-toggler-icon div { top: 50%; transform: translateY(-50%); }
 
 .mapa-responsive {
   position: relative;
@@ -88,6 +78,7 @@ body{
 .cuadro-img{
 	height: 500px; /* o cualquier alto fijo que quieras */
   	width:500px;
+
 
 
 
